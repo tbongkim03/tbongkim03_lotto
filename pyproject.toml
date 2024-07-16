@@ -6,12 +6,9 @@ authors = [
     {name = "tbongkim03", email = "tbongkim03@gmial.com"},
 ]
 dependencies = []
-requires-python = "==3.11.*"
+requires-python = ">=3.9*"
 readme = "README.md"
 license = {text = "MIT"}
-
-[project.sources]
-tbongkim03-lotto2 = "tbongkim03_lotto.draw:lotto"
 
 [tool.pdm]
 distribution = true
